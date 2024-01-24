@@ -1,0 +1,39 @@
+.navBg {
+  background-color: #0a0d13;
+
+  z-index: 999;
+  padding: 15px 0;
+
+  position: fixed;
+  width: 100%;
+}
+
+.logoHead1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 90%;
+  margin-left: -20px;
+}
+.logoHead2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 90%;
+  margin-left: -20px;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  color: #e6e6e6;
+  position: relative;
+  opacity: 1 !important;
+}
+
+@media (max-width: 992px) {
+  .navBar {
+    margin-right: 100%;
+  }
+}

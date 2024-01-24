@@ -1,0 +1,399 @@
+/* Head Content */
+
+.headwrapper1 {
+  margin-top: 60px;
+}
+
+.headbg {
+  background-image: url("../img/bg13.jpg");
+
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color-secondary);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 120px 0 60px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* registerPage */
+.headSign {
+  color: black;
+  font-size: 20px;
+}
+.invalid-tooltip {
+  color: red;
+  background-color: white !important;
+}
+
+.registerPages {
+  box-sizing: border-box;
+  width: 80%;
+  height: 85%;
+
+  border: 2px solid white;
+  border-radius: 5%;
+  background-color: white;
+
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin-top: 10%;
+}
+.registerBtn {
+  width: 30%;
+}
+
+.userNameLabels {
+  color: black;
+  font-size: 14px;
+  font-weight: 100px;
+  margin-right: 75%;
+}
+#userName {
+  width: 80%;
+  padding: 12px;
+  margin-left: 5%;
+}
+
+.passwordLabels {
+  color: black;
+  font-size: 14px;
+  font-weight: 100px;
+  margin-right: 75%;
+}
+#password {
+  width: 80%;
+  padding: 12px;
+  margin-left: 5%;
+}
+
+.form-check-input[type="checkbox"] {
+  border-color: blue;
+}
+
+.headwrapper1 {
+  margin-top: 60px;
+}
+.headwrapper {
+  text-align: justify;
+}
+.headpara {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.headwrapper1 {
+  margin-top: 60px;
+}
+.headwrapper {
+  text-align: justify;
+}
+.headpara {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.clientcount {
+  justify-content: space-between;
+
+  font-size: 32px;
+}
+.clientCountNumber1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+.clientCountNumber2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+.clientCountNumber3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+.clientCountNumber4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 45%;
+  background-color: blue;
+
+  margin-top: 8%;
+}
+@media (max-width: 575.98px) {
+  .clientCountNumber1::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+
+    margin-top: 8%;
+  }
+  .clientCountNumber2::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .clientCountNumber3::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .clientCountNumber4::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+  .clientcount {
+    text-align: center;
+  }
+  .clientCountNumber1 {
+    font-size: 30px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter1 {
+    font-size: 35px !important;
+    font-weight: 350;
+  }
+  .clientCountNumber2 {
+    font-size: 30px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter2 {
+    font-size: 35px !important;
+    font-weight: 350;
+  }
+  .clientCountNumber3 {
+    font-size: 35px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter3 {
+    font-size: 30px !important;
+    font-weight: 350;
+  }
+  .clientCountNumber4 {
+    font-size: 35px;
+
+    font-weight: 350;
+  }
+
+  .clientCountLetter4 {
+    font-size: 30px !important;
+    font-weight: 350;
+  }
+  .navBg {
+    background-color: #0a0d13;
+
+    z-index: 999;
+    padding: 15px 0;
+
+    position: fixed;
+    width: 100%;
+  }
+  .registerPage {
+    box-sizing: border-box;
+    width: 90%;
+    height: 100%;
+    margin-left: 4%;
+
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: white;
+
+    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
+  }
+  .headpara ul li {
+    font-size: 15px !important;
+  }
+  .headSign {
+    color: black;
+  }
+  .invalid-tooltip {
+    color: red;
+    background-color: white !important;
+    font-size: 8px !important;
+  }
+  .firstNameLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 13% !important;
+  }
+  .firstName {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .form-control ::placeholder {
+    font-size: 5px !important;
+  }
+  .firstNameError {
+    margin-left: 20%;
+  }
+  .lastNameLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-right: 44% !important;
+  }
+  .lastName {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+
+  .dateLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 13% !important;
+  }
+  .date {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .dateError {
+    margin-left: 20%;
+  }
+
+  .emailLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-right: 80% !important;
+  }
+  .email {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .mobileNumberLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 13% !important;
+  }
+  .mobileNumber {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .mobileError {
+    margin-left: 20%;
+  }
+
+  .cityLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-right: 80% !important;
+  }
+  .city {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .stateLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 13% !important;
+    margin-top: 20% !important;
+  }
+  .state {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .stateError {
+    margin-left: 20%;
+  }
+  .zipLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-right: 80% !important;
+    margin-top: 20% !important;
+  }
+  .zip {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .userNameLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-left: 13% !important;
+  }
+  .userName {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+  .userNameError {
+    margin-left: 20%;
+  }
+  .passwordLabel {
+    color: black;
+    font-size: 15px !important;
+    font-weight: 50px !important;
+    margin-right: 80% !important;
+  }
+  .password {
+    border-color: blue;
+    width: 80%;
+    padding: 6px !important;
+  }
+
+  .termsLabel {
+    margin-right: 25% !important;
+    color: black;
+    font-size: 15px !important;
+    font-weight: 100px;
+  }
+  .termsLabels {
+    margin-left: 10%;
+  }
+
+  .form-check-input[type="checkbox"] {
+    border-color: blue;
+  }
+}

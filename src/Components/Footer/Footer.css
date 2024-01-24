@@ -1,0 +1,40 @@
+.footOne {
+  text-align: justify;
+}
+.footTwo {
+  text-align: justify;
+}
+.footThree {
+  text-align: justify;
+}
+.footFour {
+  text-align: justify;
+}
+.footer {
+  font-size: 14px;
+  background-color: #0e1d34;
+  padding: 50px 0px;
+  color: azure;
+}
+
+@media (max-width: 575.98px) {
+  .footOne {
+    text-align: justify;
+    width: 340px;
+    margin-left: -29px;
+  }
+  .footTwo {
+    text-align: justify;
+    margin-left: -19px;
+  }
+  .footFour {
+    text-align: center;
+  }
+
+  .footer {
+    font-size: 14px;
+    background-color: #0e1d34;
+    padding: 34px;
+    color: azure;
+  }
+}

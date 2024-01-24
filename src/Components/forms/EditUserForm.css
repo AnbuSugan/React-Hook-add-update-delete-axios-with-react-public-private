@@ -1,0 +1,45 @@
+.courseNameLabels {
+  margin-right: 19%;
+}
+.coursenameInputs {
+  width: 40%;
+}
+.coursedescriptionLabels {
+  margin-right: 9%;
+}
+.coursedescriptionInputs {
+  width: 40%;
+  margin-left: 5%;
+}
+.coursePriceLabels {
+  margin-right: 20%;
+}
+.coursePriceInputs {
+  width: 40%;
+  margin-left: 5%;
+}
+.courseDurationLabels {
+  margin-right: 14%;
+}
+.courseDurationInputs {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.addUserTittles {
+  box-sizing: border-box;
+  width: 25%;
+  height: 30%;
+
+  border: 2px solid white;
+  border-radius: 5%;
+  background-color: rgb(223, 210, 194);
+
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  margin-left: 38%;
+}
+.updateUsersButton {
+  border-radius: 10%;
+  margin-top: 2%;
+}

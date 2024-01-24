@@ -1,0 +1,12 @@
+.table {
+  margin-top: 3%;
+}
+.tableDesighn {
+  width: 90%;
+  margin-left: 5%;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
